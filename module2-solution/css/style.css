@@ -76,10 +76,13 @@ h2 {
    }
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
    .menu-section-xs {
       width: 100%;
-      padding: 10px;
+      padding: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      box-sizing: border-box;
    }
 }
 
