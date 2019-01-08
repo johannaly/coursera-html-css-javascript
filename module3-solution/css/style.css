@@ -8,7 +8,7 @@ body {
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 30px;
 }
 
@@ -20,46 +20,39 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 0.75;
-    color: #557c3e;
+    color: #951C49;
 }
-
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
 
-.navbar-brand p { 
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
-  }
+.navbar {
+    margin-bottom: 0px;
+}
 
-.navbar-brand p span { 
-    vertical-align: middle;
-  }
-  
+.navbar-nav {
+    margin-top: 0px;
+}
+
 #nav-list a {
     color: #951C49;
-    text-align: center;
-  }
+    border-bottom: 1px solid black;
+}
 
 #nav-list a:hover {
     background: #E7E7E7;
-  }
+}
 
-#nav-list a span {
-    font-size: 1.8em;
-  }
 
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
-  }
+}
 
 .collapsable-nav a {
-      font-size: 1.2em;
-  }
+    font-size: 1.2em;
+}
 
 h1 {
     font-size: 2em;
@@ -70,8 +63,8 @@ h2 {
     font-size: 2em;
 }
 
-.h3 {
-    font-size: 2.0em;
+h3 {
+    font-size: 2em;
 }
 
 #menu-title {
@@ -83,11 +76,15 @@ h2 {
     background-color: grey;
     padding: 20px;
 }
+/*
+#main-content {
+    width: 100%;
+}*/
 
 @media (min-width: 992px) {
     #collapsable-nav {
         display: none !important;
-    }
+    }  
 }
 
 @media (min-width:768px) and (max-width: 991px) {
