@@ -76,10 +76,6 @@ h3 {
     background-color: grey;
     padding: 20px;
 }
-/*
-#main-content {
-    width: 100%;
-}*/
 
 @media (min-width: 992px) {
     #collapsable-nav {
@@ -93,8 +89,4 @@ h3 {
     }
 }
 
-@media (max-width: 767px) {
-    .navbar-default .navbar-collapse {
-        border-color: #f6b319;
-    }
-}
+   
